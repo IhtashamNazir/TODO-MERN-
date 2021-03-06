@@ -13,19 +13,9 @@ function App() {
   const [editingText, setEditingText] = useState("");
 
   useEffect( async () => {
-    // const json = localStorage.getItem("todos");
-    // const loadedTodos = JSON.parse(json);
-    // if (loadedTodos) {
-    //   setTodos(loadedTodos);
-    // }
     updateState()
   }, []);
-
-  // useEffect(() => {
-  //   const json = JSON.stringify(todos);
-  //   localStorage.setItem("todos", json);
-  // }, [todos]);
-
+  
   async function handleSubmit(e) {
     e.preventDefault();
     try {
