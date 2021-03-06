@@ -1,0 +1,22 @@
+span.input-group-text {
+    background-color: #282c34;
+    border: 1px solid #282c34;
+    border-radius: .25rem;
+}
+
+.btn.btn-primary{
+    margin: 0 10px 0 20px;
+}
+
+.todo-actions{
+    float: right;
+}
+
+.addtodo{
+    margin: 10px 0 30px;
+}
+#todo-list {
+    border: solid 2px #fff;
+    padding: 20px;
+    border-radius: 16px;
+}
